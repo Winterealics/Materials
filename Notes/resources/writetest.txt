@@ -1,0 +1,4 @@
+Alexa, Good morning!
+What time is it?HelloWorld
+from
+Singapore
