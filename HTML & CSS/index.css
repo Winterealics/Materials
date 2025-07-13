@@ -1,0 +1,46 @@
+body {
+    background-color:lightsteelblue;
+}
+
+h1 {
+    color:green;
+    font-weight:bold
+}
+
+#specialboi {
+    color:blue;
+    font-family:'Franklin Gothic Medium';
+    font-size: larger;
+}
+
+.notsospecial {
+    color:red;
+    font-family: Impact;
+    font-size:large
+}
+
+table, th, td {
+    border:2px solid black;
+    border-collapse:collapse;
+}
+
+th {
+    background-color:darkcyan
+}
+
+#colortester {
+    color:blueviolet;
+    font-size:200%;
+    background-color:antiquewhite;
+    border:3px solid darkblue;
+    padding:30px; /*space within border*/
+    margin:50px; /*space outside border*/
+    text-align:center;
+    height:60px;
+    width:500px
+}
+
+.formtype {
+    font-size:large;
+    font-weight:bold
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mean Scores</title>
+    <link rel="stylesheet" href="./static/index_7_5.css">
+</head>
+
+<body>
+    <table>
+        <tr><th>Name</th><th>Mean Score</th></tr>
+
+        {% for c in meanList %}
+            <tr>
+                {% for x in c %}
+                    <td>{{x}}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+
+    </table>
+    <br>
+
+    <form action="/">
+        <input type="submit" value="Return">
+    </form>
+</body>
+
+</html>

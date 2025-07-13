@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="/static/flasktester.css">
+</head>
+
+<body>
+    <h1>List</h1>
+    <p>Unordered list:</p>
+    <ul>
+        {% for c in ulist %}
+            <li>{{c}}</li>
+        {% endfor %}
+    </ul>
+
+    <p>Ordered list:</p>
+    <ol>
+        {% for x in olist %}
+            <li> {{x}} </li>
+        {% endfor %}
+    </ol>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="/static/flasktester.css">
+</head>
+
+<body>
+    <h1>Table</h1>
+    
+    <table>
+        <tr>
+        {% for c in header %}
+            <th> {{c}} </th>
+        {% endfor %} 
+        </tr>      
+        
+        <tr>
+        {% for c in value %}
+            <td> {{c}} </td>
+        {% endfor %} 
+        </tr>
+    </table>
+</body>
+</html>

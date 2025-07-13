@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Notes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Heading</h1>
+    </header>
+
+    <main>
+        <h2>Subheading 1</h2>
+            <p id="para 1">This is a parapgraph</p>
+        <h2>Subheading 2</h2>
+            <p>This is also a paragraph</p>
+
+        <h2>Special characters</h2>
+            <p><b>This is bolded</b></p>
+            <p><i>This is italicised</i></p>
+        <br> <!--break-->
+        
+        <!-- table -->
+        <h2>Table</h2>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+
+            <tr>
+                <td>Row 1</td>
+                <td>weee</td>
+            </tr>
+
+            <tr>
+                <td>eeee</td>
+                <td>eeee</td>
+            </tr>
+
+        </table>
+        
+        <br>
+        <!-- anchor elements -->
+        <h2>Anchor elements</h2>
+        <a href="index.html">Link back to this page</a> <!--any url-->
+
+        <br>
+        <p>Image</p>
+        <img src="url" width="500" height=auto alt="img not found"> <!--url of image-->
+
+        <br><br>
+        <!-- div, id and class -->
+        <h2>Div, id and class</h2>
+
+        <div id="colortester"> <!--container-->
+            Look at me I'm in a box
+        </div>
+
+        <p id="specialboi">I am a special boi because only I have this id</p>
+
+        <br>
+        <p class="notsospecial">I am not special because this guy below me has the same class</p>
+        <p class="notsospecial">Neither am I because this guy above me exists</p>
+
+        <br>
+        <!-- forms -->
+        <h2>Forms</h2>
+        <form action="url"> <!--url of file that will process the input-->
+            <p class="formtype">Text input</p>
+            <label for="random">Keyboard spam:</label>
+            <input type="text" id="random" name="random">
+
+            <p class="formtype">Radio input</p>
+            <label for="yeahnah">Yeah Nah</label>
+            <input type="radio" id="yeahnah" name="radioform" value="Yeah Nah"> <br>
+            <label for="nahyeah">Nah Yeah</label>
+            <input type="radio" id="nahyeah" name="radioform" value="Nah Yeah">
+
+            <p class="formtype">Checkbox input</p>
+            <label for="yes">Yes</label>
+            <input type="checkbox" id="yes" name="yes?" value="yes"> <br>
+            <label for="or">or</label>
+            <input type="checkbox" id="or" name="yes?" value="or"> <br>
+            <label for="YES">YES</label>
+            <input type="checkbox" id="YES" name="yes?" value="YES">
+
+            <p class="formtype">Button input</p>
+            <input type="submit" value="Submit asap">
+        </form>
+    </main>
+
+    <footer>
+        <h3>The end</h3>
+
+        <style>
+            h3 {
+                color:red;
+                font-weight:bold;
+                font-size:300%
+            }
+        </style>
+    </footer>
+</body>
