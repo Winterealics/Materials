@@ -1,0 +1,33 @@
+table {
+    border-collapse:collapse;
+}
+
+th, td {
+    border:0px;
+    width:30px;
+    height:30px
+}
+
+#red {
+    background-color:red;
+}
+
+#white {
+    background-color:white;
+}
+
+#yellow {
+    background-color:yellow;
+}
+
+#blue {
+    background-color:blue;
+}
+
+#black {
+    background-color:black;
+}
+
+#green {
+    background-color:green;
+}
