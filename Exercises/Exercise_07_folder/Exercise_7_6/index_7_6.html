@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Check</title>
+    <link rel="stylesheet" href="./static/index_7_6.css">
+</head>
+
+<body>
+    <form action="/" method="post">
+        <label for="name">Enter name:</label>
+        <input type="text" name="name">
+        <input type="submit">
+    </form>
+
+    {% if recordList %}
+    <br>
+    <p>Name: {{name}}</p>
+    <table>
+        <tr><th>Book Name</th><th>Status</th></tr>
+        
+        {% for c in recordList %}
+        <tr>
+            {% for x in c %}
+            <td>{{x}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</body>
+</html>
